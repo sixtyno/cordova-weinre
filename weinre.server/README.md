@@ -30,6 +30,21 @@ to allow you debug web pages on a mobile device such as a phone.
 For more information on weinre:
 [http://people.apache.org/~pmuellr/weinre/](http://people.apache.org/~pmuellr/weinre/)
 
+pre requirements
+-------
+In order to use this packeage you need to be logged in to GitHub npm registry (https://npm.pkg.github.com) for sixty scope. To login, you need to follow those steps:
+1. Generate Personal TOKEN in github settings (Settings / Developer settings / Personal access tokens)
+2. Run the following command in terminal:
+```
+npm login --scope=@sixtyno --registry=https://npm.pkg.github.com
+```
+3. Pass the correct values:
+```
+> Username: USERNAME
+> Password: TOKEN
+> Email: PUBLIC-EMAIL-ADDRESS@sixty.no
+```
+
 running
 -------
 
